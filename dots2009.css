@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/* CSS Document 
+All of the formatting for the circles to appear, hover, get selected*/
+
+a.dotchina09{
+	background-image: url(2009circles/china89.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 90px;
+	width: 90px;
+	display: block;
+	position: absolute;
+	cursor: pointer;
+	z-index: 15;
+}
+
+a.dotchina09:selected {
+	opacity:0.7;
+	filter:alpha(opacity=70); /* For IE8 and earlier */
+}
+
+a.dotchina09:hover {
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+a.dotsouthkorea09{
+	background-image: url(2009circles/southkorea114.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 115px;
+	width: 115px;
+	display: block;
+	position: absolute;
+	cursor: pointer;
+	z-index: 15;
+}
+
+a.dotsouthkorea09:selected {
+	opacity:0.7;
+	filter:alpha(opacity=70); /* For IE8 and earlier */
+}
+
+a.dotsouthkorea09:hover {
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+a.dotindia09{
+	background-image: url(2009circles/india60.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 61px;
+	width: 61px;
+	display: block;
+	position: absolute;
+	cursor: pointer;
+	z-index: 15;
+}
+
+a.dotindia09:selected {
+	opacity:0.7;
+	filter:alpha(opacity=70); /* For IE8 and earlier */
+}
+
+a.dotindia09:hover {
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+a.dotcanada09{
+	background-image: url(2009circles/canada50.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 52px;
+	width: 52px;
+	display: block;
+	position: absolute;
+	cursor: pointer;
+	z-index: 15;
+}
+
+a.dotcanada09:selected {
+	opacity:0.7;
+	filter:alpha(opacity=70); /* For IE8 and earlier */
+}
+
+a.dotcanada09:hover {
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+a.dottaiwan09{
+	background-image: url(2009circles/taiwan47.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 48px;
+	width: 48px;
+	display: block;
+	position: absolute;
+	cursor: pointer;
+	z-index: 15;
+}
+
+a.dottaiwan09:selected {
+	opacity:0.7;
+	filter:alpha(opacity=70); /* For IE8 and earlier */
+}
+
+a.dottaiwan09:hover {
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+a.dotsingapore09{
+	background-image: url(2009circles/singapore40.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 41px;
+	width: 41px;
+	display: block;
+	position: absolute;
+	cursor: pointer;
+	z-index: 15;
+}
+
+a.dotsingapore09:selected {
+	opacity:0.7;
+	filter:alpha(opacity=70); /* For IE8 and earlier */
+}
+
+a.dotsingapore09:hover {
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+a.dothongkong09{
+	background-image: url(2009circles/hongkong21.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 22px;
+	width: 22px;
+	display: block;
+	position: absolute;
+	cursor: pointer;
+	z-index: 15;
+}
+
+a.dothongkong09:selected {
+	opacity:0.7;
+	filter:alpha(opacity=70); /* For IE8 and earlier */
+}
+
+a.dothongkong09:hover {
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+a.dotunitedkingdom09{
+	background-image: url(2009circles/unitedkingdom20.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 22px;
+	width: 22px;
+	display: block;
+	position: absolute;
+	cursor: pointer;
+	z-index: 15;
+}
+
+a.dotunitedkingdom09:selected {
+	opacity:0.7;
+	filter:alpha(opacity=70); /* For IE8 and earlier */
+}
+
+a.dotunitedkingdom09:hover {
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+a.dotindonesia09{
+	background-image: url(2009circles/indonesia17.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 18px;
+	width: 18px;
+	display: block;
+	position: absolute;
+	cursor: pointer;
+	z-index: 15;
+}
+
+a.dotindonesia09:selected {
+	opacity:0.7;
+	filter:alpha(opacity=70); /* For IE8 and earlier */
+}
+
+a.dotindonesia09:hover {
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+a.dotthailand09{
+	background-image: url(2009circles/thailand20.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 22px;
+	width: 22px;
+	display: block;
+	position: absolute;
+	cursor: pointer;
+	z-index: 15;
+}
+
+a.dotthailand09:selected {
+	opacity:0.7;
+	filter:alpha(opacity=70); /* For IE8 and earlier */
+}
+
+a.dotthailand09:hover {
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+

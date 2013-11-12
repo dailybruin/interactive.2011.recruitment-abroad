@@ -1,0 +1,532 @@
+* {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color:#383838;
+}
+
+h1{
+	font-weight:bold;
+	font-size:35px;
+}
+
+
+h3 {
+	font-size: 14px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	
+}
+
+h3 span{
+	font-size: 16px;
+	font-weight:bold;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	
+}
+
+time{
+	font-size: 14px;
+	font-weight:normal;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	color:#fff;
+	
+}
+ 
+
+p {
+	text-indent:25px;
+	line-height:22px;
+}
+
+np {
+	text-indent:0px;
+	line-height:22px;
+}
+
+subhead{
+	text-indent:5px;
+}
+
+explainer {
+	float:left;
+	position:relative;
+	top:-120px;
+	left:0px;
+}
+
+inc{
+	color:#090;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size:30px;
+}
+
+dec{
+	color:#F00;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size:30px;
+}
+
+nochg{
+	color:#09F;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size:30px;
+}
+
+numb{
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size:30px;
+	font-weight:bold;
+	line-height: 25px;
+}
+
+state{
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 37px;
+	font-weight:bold;
+	line-height: 40px;
+}
+
+cont{
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+stats{
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+long{
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight:normal;
+	line-height: 19px;
+}
+
+
+.illo{
+	margin: 0.5em 0pt 0.5em 0.8em; 
+	float:right; 
+	padding: 5px;
+	text-align: right;
+}
+
+.numbersnav {
+	display:block;
+	float: right;
+	position: relative;
+	width:400px;
+	z-index:15;
+	border: 5px;
+	top: -40px; left: 222px;
+}
+
+ul#numbers{
+	margin: 5px;
+	border-bottom:0px;
+	list-style:none;
+	width: 730px;
+
+}
+
+ul#numbers li{
+display:inline;
+	margin:6px;
+width: 100px;
+color:#FFF;
+float: left;
+}
+
+
+
+li.app{
+	text-decoration:none;
+	padding: 0px;
+	width: 100px;
+	background:#81AFC1;
+	color:#FFF;
+	float: left;
+	text-align:center;
+}
+
+.examplenav {
+	display:block;
+	float: right;
+	position: relative;
+	width:400px;
+	z-index:15;
+	border: 5px;
+	top: -70px; left: -250px;
+}
+
+ul#numbers{
+	margin: 5px;
+	border-bottom:0px;
+	list-style:none;
+	width: 530px;
+
+}
+
+li.example{
+	text-decoration:none;
+	padding: 0px;
+	width: 80px;
+	background:#FFF;
+	color:#000;
+	float: left;
+	text-align:center;
+}
+
+
+.detailcontainer{
+	position: absolute;
+	height: 110px;
+	width: 800px;
+	top: 0px; left:5px;
+	margin: 10px;
+	margin-right: 20px;
+	
+}
+
+.countrydetail{
+	position: relative;
+	top: 0px;
+	height:100px;
+	width: 600 px;
+	font-size: 10px;
+	float: left;
+	padding: 10px 10px 0px 10px;
+	/*border-left: 1px solid #fff;
+	border-top: 1px solid #fff;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;*/
+	 }
+
+
+
+.countrydetailcontainer{
+	display:none;
+}
+
+#topnav {
+	display:block;
+	float: none;
+	position: relative;
+	width:930px;
+	z-index:15;
+}
+
+ul#navbar{
+	margin: 0px;
+	padding:0px;
+	border-bottom:5px;
+	list-style:none;
+	width: 930px;
+
+}
+
+
+ul#navbar li{
+display:inline;
+width: 229px;
+}
+
+ul#navbar li a{
+text-decoration:none;
+padding: 7px;
+width: 220px;
+background-color: background:#2D3451;
+color:#FFF;
+float: left;
+border-left:1px solid #fff;
+border-bottom:1px solid #fff;
+text-align:center;
+}
+
+ul#navbar li a:hover{
+	background:#666;
+	color:#FFF;
+}
+
+li.current{
+	text-decoration:none;
+	padding: 0px;
+	width: 220px;
+	background:#7288CE;
+	color:#FFF;
+	float: left;
+	border-left:1px solid #fff;
+	border-bottom:1px solid #fff;
+	text-align:center;
+}
+
+li.otheryear{
+	text-decoration:none;
+	padding: 0px;
+	width: 220px;
+	background:#2D3451;
+	color:#FFF;
+	float: left;
+	border-left:1px solid #fff;
+	border-bottom:1px solid #fff;
+	text-align:center;
+}
+
+.mapcontainertest {
+	background-image: url(2011map4a.png);
+	background-color:#fff;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	float: right;
+	height: 804px;
+	width: 940px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+	display: block;
+}
+
+.mapcontainertest08 {
+	background-image: url(2008map3a.png);
+	background-color:#fff;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	float: right;
+	height: 804px;
+	width: 940px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+	display: block;
+}
+
+.mapcontainertest09 {
+	background-image: url(2009map3a.png);
+	background-color:#fff;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	float: right;
+	height: 804px;
+	width: 940px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+	display: block;
+}
+
+.mapcontainertest10 {
+	background-image: url(2010map3a.png);
+	background-color:#fff;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	float: right;
+	height: 804px;
+	width: 940px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+	display: block;
+}
+
+html {
+	height:100%;
+}
+
+body {
+	background-color:#f1f1f0;
+	min-height:100%;
+}
+
+section#content {
+	width:940px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#FFF;
+	padding:10px;
+	height:100%;
+	height:1300px;
+}
+
+section#writing {
+	width:940px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#FFF;
+	padding:10px;
+	height:100%;
+	height:1913px;
+}
+
+section#methodology {
+	width:940px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#FFF;
+	padding:10px;
+	height:100%;
+	height:1730px;
+}
+
+img#nameplate {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	margin-bottom:20px;
+	padding-top:20px;
+}
+
+div#topbar {
+	background-color:#131e40;
+	height:30px;
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	z-index:1;
+	position:relative;
+}
+
+span#topbarcontent {
+	color:#f1f1f0;
+	text-align:center;
+	position:relative;
+	top:-22px;
+	display:block;
+	font-family:'Georgia','Times','Serif';
+	font-style:italic;
+	font-size:0.8em;
+}
+
+div#tophide {
+	width:950px;
+	background-color:#f1f1f0;
+	display:block;
+	height:3px;
+	z-index:3;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div#topback {
+	background-color:#50566c;
+	height:30px;
+	position:relative;
+	width:100%;
+	float:right;
+	top:-3px;
+}
+
+
+h1 a{
+		text-decoration:none;
+}
+
+
+
+span.byline {
+	display:block;
+	font-size:17px;
+}
+
+span.date {
+	display:block;
+	font-size:1.2em;
+	background-color:#131e40;
+	color:#FFF;
+	padding:3px;
+	width:120px;
+	overflow:visible;
+	position:relative;
+	left:-20px;
+	padding-left:20px;
+	margin-top:6px;
+	margin-bottom:10px;
+}
+span.leftDate {
+	background-repeat:repeat-x;
+	display:inline;
+	position:absolute;
+	border-left: 10px solid transparent;  
+	border-bottom: 10px solid #50566c;  
+	top: -10px;  
+	left: 0;  
+	position: absolute;  
+}
+
+div#socialmedia {
+	float: right;
+	position: relative;
+	left: 90px;
+	top: 20px;
+	text-align:center;
+}
+
+div#socialmedia > ul > li {
+	padding:0px 2px 10px 2px;
+}
+
+footer {
+	height:60px;
+	background-color:#383838;
+	background-image:url("img/BottomBorder.png");
+	background-repeat:repeat-x;
+	display:block;
+	clear:both;
+}
+
+span#footermessage {
+	color:white;
+	display:block;
+	text-align:center;
+	padding-top:15px;
+	font-size:0.8em;
+}
+
+span#footermessage > strong, span#footermessage > strong > a {
+	color:white;
+	font-weight:bold;
+	font-size:1em;
+	text-decoration:none;
+}
+
+span#footermessage > strong > a:hover {
+	text-decoration:underline;
+}
+
+div#backtoarticle {
+	width:50px;
+	background-color:#7288CE;
+	text-align:center;
+	color:white;
+	padding:10px;
+	margin-left:16px;
+	top:0px;
+	float:left;
+	position:relative;
+	left: -110px;
+	top: 20px;
+}
+
+div#backtoarticle:hover {
+	background-color:#2D3451;
+}
+
+
+article {
+	float:left;
+	position:relative;
+	top:-120px;
+}
+
+br.clear {
+	clear:both;
+}
